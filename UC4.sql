@@ -11,3 +11,8 @@ state varchar(45), EmailId varchar(45), Mobile  varchar(45), pincode varchar(30)
 
 >Insert into AddressBook_Service(FirstName, LastName, Address, City, State, EmailId, Mobile,pincode)
 values('Kanchan', 'Solanke', 'Lake Street', 'Pune','Maharashtra','abc@gmail.com','9123456789','123456');
+
+>update AddressBook_Service
+set City='Hyderabad'
+WHERE City ='Pune';
+
