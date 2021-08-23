@@ -30,3 +30,7 @@ from AddressBook_Service;
 >Select FirstName
 from AddressBook_Service
 Order by City asc;
+
+>alter table AddressBook_Service add type varchar(50);
+desc AddressBook_Service;
+select * from AddressBook_Service;
