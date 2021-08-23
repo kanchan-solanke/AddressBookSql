@@ -19,4 +19,9 @@ WHERE City ='Pune';
 >Delete from AddressBook_Service
 where FirstName ='Kanchan';
 
+>select FirstName
+from AddressBook_Service
+Where City="Pune" or
+State="Maharashtra";
+
 
