@@ -47,3 +47,13 @@ values('Mamta','Dalvi','tt Street','Banglore','Karnatka','asd@gmail.com','891234
 select * from AddressBook_Service ;
 
 select type,count(*) from AddressBook_Service group by Type;
+
+
+>
+insert into AddressBook_Service 
+values('Tejal','Haware','kk Street','Kolkata','WestBengal','ogt@gmail.com','8912388609','904545','Friends');
+
+
+insert into AddressBook_Service 
+values('Tejal','Haware','kk Street','Kolkata','WestBengal','ogt@gmail.com','8912388609','904545','Family');
+ select * from AddressBook_Service ;
