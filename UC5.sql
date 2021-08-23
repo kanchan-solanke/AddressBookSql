@@ -16,3 +16,6 @@ values('Kanchan', 'Solanke', 'Lake Street', 'Pune','Maharashtra','abc@gmail.com'
 set City='Hyderabad'
 WHERE City ='Pune';
 
+>Delete from addressbooksql1
+where FirstName ='Kanchan';
+
