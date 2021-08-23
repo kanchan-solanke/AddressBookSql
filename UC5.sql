@@ -16,10 +16,7 @@ values('Kanchan', 'Solanke', 'Lake Street', 'Pune','Maharashtra','abc@gmail.com'
 set City='Hyderabad'
 WHERE City ='Pune';
 
->Delete from addressbooksql1
+>Delete from AddressBook_Service
 where FirstName ='Kanchan';
 
->select FirstName
-from addressbooksql1
-where City="Pune"
-and State="Maharashtra";
+
