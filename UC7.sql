@@ -24,4 +24,5 @@ from AddressBook_Service
 Where City="Pune" or
 State="Maharashtra";
 
-
+>Select count(City),count(State)
+from AddressBook_Service;
