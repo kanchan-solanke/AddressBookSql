@@ -26,3 +26,7 @@ State="Maharashtra";
 
 >Select count(City),count(State)
 from AddressBook_Service;
+
+>Select City
+from AddressBook_Service
+Order by FirstName asc;
