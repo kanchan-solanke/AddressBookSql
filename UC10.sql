@@ -34,3 +34,16 @@ Order by City asc;
 >alter table AddressBook_Service add type varchar(50);
 desc AddressBook_Service;
 select * from AddressBook_Service;
+
+>insert into AddressBook_Service 
+values('Abhijit','Jawanjal','Bridge Street','Mumbai','Maharashtra','opu@gmail.com','8912345609','908345','Family');
+
+insert into AddressBook_Service 
+values('Tejal','Haware','kk Street','Kolkata','WestBengal','ogt@gmail.com','8912388609','904545','Friends');
+
+insert into AddressBook_Service 
+values('Mamta','Dalvi','tt Street','Banglore','Karnatka','asd@gmail.com','8912345909','901345','Profession');
+
+select * from AddressBook_Service ;
+
+select type,count(*) from AddressBook_Service group by Type;
